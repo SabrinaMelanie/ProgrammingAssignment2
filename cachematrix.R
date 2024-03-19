@@ -39,7 +39,7 @@ inv
 }
 
 ## Checking if it works
-m <- matrix(rnorm(16),4,4)
+m <- matrix(rnorm(11),2,2)
 m1 <- makeCacheMatrix(m)
 cacheSolve(m1)
 
